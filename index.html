@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Search video</title>
+  <link rel="stylesheet" href="css/stylesheets.css">
+</head>
+<body>
+  <main class="main">
+    <div class="container">
+      <h1>Поиск видео</h1>
+      <div class="search-block">
+        <form class="search-form" action="https://www.youtube.com/" method="GET">
+          <img class="search-logo" src="assets/youtube.ico" alt="Значок Ютуба">
+          <label class="search-title">YouTube</label>
+          <input class="search-field" type="text" name="search-query">
+          <input class="search-button" type="submit" value="Искать">
+        </form>
+
+        <form class="search-form" action="https://vimeo.com/" method="get">
+        <img class="search-logo" src="assets/vimeo.ico" alt="Значок Вимео">
+        <label class="search-title">Vimeo</label>
+        <input class="search-field" type="text" name="q">
+        <input class="search-button" type="submit" value="Искать">
+        </form>
+      </div>
+    </div>
+  </main>
+</body>
+</html>
